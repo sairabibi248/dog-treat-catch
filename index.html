@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Treat Catch 🐾</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./assests/favicon.png">
+</head>
+<body>
+
+    <div id="game-container">
+        
+        <!-- UI BAR -->
+        <div class="ui-bar">
+            <div class="stat-box">Level: <span id="level-display">1</span>/5</div>
+            <div class="stat-box">Score: <span id="score">0</span> / <span id="target-score">100</span></div>
+            <div class="stat-box">Lives: <span id="lives">❤️❤️❤️</span></div>
+            <div class="stat-box quick-controls">
+                <button id="mute-btn" class="icon-btn">🔊</button>
+                <button id="pause-btn" class="icon-btn">⏸️</button>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas"></canvas>
+
+        <!-- SELECTION OVERLAY -->
+        <div id="selection-screen" class="overlay">
+            <h1>Dog Treat Catch 🐾</h1>
+            <p class="subtitle">Catch treats and clear all levels!</p>
+            
+            <div class="setup-section">
+                <h3>Select Dog</h3>
+                <div class="dog-options">
+                    <button class="dog-btn active" data-dog="🐕">Golden 🐕</button>
+                    <button class="dog-btn" data-dog="🐶">Puppy 🐶</button>
+                    <button class="dog-btn" data-dog="🦮">Labrador 🦮</button>
+                    <button class="dog-btn" data-dog="🐩">Poodle 🐩</button>
+                </div>
+            </div>
+
+            <div class="setup-section">
+                <h3>Select Difficulty</h3>
+                <div class="diff-options">
+                    <button class="diff-btn active" data-diff="easy">Easy</button>
+                    <button class="diff-btn" data-diff="hard">Hard</button>
+                    <button class="diff-btn" data-diff="pro">Pro</button>
+                </div>
+            </div>
+
+            <button id="start-btn" class="main-btn">Start Game 🚀</button>
+        </div>
+
+        <!-- LEVEL COMPLETE OVERLAY -->
+        <div id="level-screen" class="overlay hidden">
+            <h2 id="level-title">Level 1 Cleared! 🎉</h2>
+            <p id="level-desc">Next level is getting faster!</p>
+            <button id="next-level-btn" class="main-btn">Next Level ➡️</button>
+        </div>
+
+        <!-- GAME OVER OVERLAY -->
+        <div id="game-over-screen" class="overlay hidden">
+            <h1>Game Over! 🍫</h1>
+            <p>Your dog lost all lives!</p>
+            <p class="final-score-box">Final Score: <span id="final-score">0</span></p>
+            <button id="restart-btn" class="main-btn">Play Again 🔄</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
