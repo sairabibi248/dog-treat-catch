@@ -1,3 +1,4 @@
+🎮 **Live Demo:** [Play Dog Treat Catch Here](https://sairabibi248.github.io/dog-treat-catch/)
 # 🐕 Dog Treat Catch 🍖 — Canvas Arcade Game
 
 An interactive, responsive HTML5 Canvas arcade game built for the **DEV Weekend Challenge: Dog Days Edition**. Players control a hungry puppy to catch treats, collect power-ups, avoid hazardous items, and progress through 5 dynamic levels!
