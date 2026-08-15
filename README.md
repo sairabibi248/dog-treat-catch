@@ -36,8 +36,7 @@ An interactive, responsive HTML5 Canvas arcade game built for the **DEV Weekend 
 
  ## 🎬 Gameplay Demo
 
-[Watch Full Gameplay Video](DogTreatCatch-GoogleChrome2026-08-1600-31-43-ezgif.com-video-cutter (1).mp4)
-
+[Watch Full Gameplay Video](https://github.com/sairabibi248/dog-treat-catch/raw/refs/heads/main/DogTreatCatch-GoogleChrome2026-08-1600-31-43-ezgif.com-video-cutter%20(1).mp4)
 ---
 
 ## 🚀 Local Setup
