@@ -33,6 +33,11 @@ An interactive, responsive HTML5 Canvas arcade game built for the **DEV Weekend 
 3. **🍫 Avoid:** Stay away from chocolates (-15 pts) and hazards!
 4. **🎯 Win:** Reach the level score target before running out of lives to advance to the next level.
 
+
+ ## 🎬 Gameplay Demo
+
+[Watch Full Gameplay Video](DogTreatCatch-GoogleChrome2026-08-1600-31-43-ezgif.com-video-cutter (1).mp4)
+
 ---
 
 ## 🚀 Local Setup
