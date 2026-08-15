@@ -1,10 +1,22 @@
 🎮 **Live Demo:** [Play Dog Treat Catch Here](https://sairabibi248.github.io/dog-treat-catch/)
+## 🛠️ What I Built
+
+**Dog Treat Catch** is an interactive, responsive HTML5 Canvas arcade game built for the **DEV Weekend Challenge: Dog Days Edition**. 
+
+In this game, players control a customizable, hungry puppy navigating through falling items. The goal is to catch delicious treats, gather active power-ups (like Shields and 2x Score Multipliers), avoid hazardous foods like chocolates and bombs, and progress through 5 dynamically scaling levels before running out of lives!
 # 🐕 Dog Treat Catch 🍖 — Canvas Arcade Game
 ![Dog Treat Catch Demo](gameplay.gif)
 
 An interactive, responsive HTML5 Canvas arcade game built for the **DEV Weekend Challenge: Dog Days Edition**. Players control a hungry puppy to catch treats, collect power-ups, avoid hazardous items, and progress through 5 dynamic levels!
 
 ---
+## 🏗️ How I Built It
+
+I built this project from scratch using pure frontend technologies:
+* **HTML5 Canvas:** Handled the 60FPS game loop using `requestAnimationFrame`, rendering character sprites, falling treats, particle effects, and background themes.
+* **Vanilla JavaScript (ES6+):** Managed object-oriented game logic, collision detection algorithms, state handling (start, pause, game over, level clear), and `LocalStorage` high-score persistence.
+* **Web Audio API (Synthesized SFX):** Created zero-dependency, real-time synthesized sound effects (barks, treat collection chimes, hazard buzzers) using pure browser frequency oscillators.
+* **Responsive CSS3:** Designed custom overlays, level selection screens, and touch/mouse controls for desktop and mobile play.
 
 ## 🐶 Key Features
 
