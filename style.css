@@ -95,6 +95,7 @@ canvas {
     padding: 20px;
     text-align: center;
     cursor: default;
+    overflow-y: auto;
 }
 
 .overlay.hidden {
@@ -171,7 +172,7 @@ canvas {
 .final-score-box {
     font-size: 20px;
     color: #38bdf8;
-    margin: 15px 0;
+    margin: 10px 0;
     font-weight: bold;
 }
 
