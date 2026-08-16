@@ -13,7 +13,7 @@
         
         <!-- UI BAR -->
         <div class="ui-bar">
-            <div class="stat-box">Level: <span id="level-display">1</span>/5</div>
+            <div class="stat-box">Level: <span id="level-display">1</span>/20</div>
             <div class="stat-box">Score: <span id="score">0</span> / <span id="target-score">100</span></div>
             <div class="stat-box">Lives: <span id="lives">❤️❤️❤️</span></div>
             <div class="stat-box quick-controls">
@@ -27,7 +27,7 @@
         <!-- SELECTION OVERLAY -->
         <div id="selection-screen" class="overlay">
             <h1>Dog Treat Catch 🐾</h1>
-            <p class="subtitle">Catch treats and clear all levels!</p>
+            <p class="subtitle">Catch treats and clear all 20 levels!</p>
             
             <div class="setup-section">
                 <h3>Select Dog</h3>
@@ -63,6 +63,11 @@
             <h1>Game Over! 🍫</h1>
             <p>Your dog lost all lives!</p>
             <p class="final-score-box">Final Score: <span id="final-score">0</span></p>
+            <!-- Google AI Integration Box for Hackathon Prize Category -->
+            <div id="ai-review-box" style="background: rgba(56, 189, 248, 0.1); border: 1px solid #38bdf8; border-radius: 8px; padding: 10px 15px; margin: 10px 0; max-width: 400px;">
+                <p style="font-size: 13px; color: #38bdf8; margin-bottom: 3px; font-weight: bold;">🤖 Google Gemini AI Coach:</p>
+                <p id="ai-review-text" style="font-size: 13px; color: #f8fafc; font-style: italic;">Analyzing your puppy skills...</p>
+            </div>
             <button id="restart-btn" class="main-btn">Play Again 🔄</button>
         </div>
 
