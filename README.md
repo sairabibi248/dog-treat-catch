@@ -6,7 +6,7 @@ In this game, players control a customizable, hungry puppy navigating through fa
 
 ## 🎬 Gameplay Demo
 
-![Gameplay Demo](gameplay.gif)
+[🎬 Click Here to Watch Gameplay Demo](https://github.com/sairabibi248/dog-treat-catch/raw/main/demo.mp4)
 
 ---
 
