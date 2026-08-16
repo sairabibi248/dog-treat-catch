@@ -5,7 +5,7 @@ Dog Treat Catch is an interactive, responsive HTML5 Canvas arcade game built for
 In this game, players control a customizable, hungry puppy navigating through falling items. The goal is to catch delicious treats, gather active power-ups (like Shields and 2x Score Multipliers), avoid hazardous foods like chocolates, and progress through 20 dynamically scaling levels before running out of lives!
 
 ## 🎬 Gameplay Demo
-Markdown
+
 ![Gameplay Demo](gameplay.gif)
 
 ---
