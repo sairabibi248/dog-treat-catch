@@ -4,11 +4,9 @@
 Dog Treat Catch is an interactive, responsive HTML5 Canvas arcade game built for the DEV Weekend Challenge: Dog Days Edition.
 In this game, players control a customizable, hungry puppy navigating through falling items. The goal is to catch delicious treats, gather active power-ups (like Shields and 2x Score Multipliers), avoid hazardous foods like chocolates, and progress through 20 dynamically scaling levels before running out of lives!
 
-## 🎬 Gameplay Demo
+![Gameplay Demo](gameplay.gif)
 
-[🎬 Click Here to Watch Gameplay Demo](https://github.com/sairabibi248/dog-treat-catch/raw/main/demo.mp4)
 
----
 
 ## 🤖 Prize Categories
 
@@ -25,6 +23,12 @@ In this game, players control a customizable, hungry puppy navigating through fa
 * **Google AI Integration:** Added a dynamic post-game review box that evaluates player reflexes and achievements, fulfilling the Google AI category criteria.
 * **Web Audio API (Synthesized SFX):** Created zero-dependency, real-time synthesized sound effects using pure browser frequency oscillators.
 * **Responsive CSS3:** Designed custom overlays, level selection screens, and touch/mouse controls for desktop and mobile play.
+
+  ## 🎬 Gameplay Demo
+
+[🎬 Click Here to Watch Gameplay Demo](https://github.com/sairabibi248/dog-treat-catch/raw/main/demo.mp4)
+
+---
 
 ---
 
