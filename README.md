@@ -36,11 +36,12 @@ In this game, players control a customizable, hungry puppy navigating through fa
 * **🤖 AI Performance Coach:** Instant post-game AI review analyzing your puppy-catching skills and reflexes.
 * **🔊 Zero-Dependency Web Audio:** Built-in dynamic sound effects created entirely with the browser's Web Audio API.
 
+## 🎬 Gameplay Demo
 
- ## 🎬 Gameplay Demo
-
-[Watch Full Gameplay Video](https://github.com/sairabibi248/dog-treat-catch/raw/refs/heads/main/DogTreatCatch-GoogleChrome2026-08-1600-31-43-ezgif.com-video-cutter%20(1).mp4)
----
+<video width="100%" controls autoplay loop muted>
+  <source src="DogTreatCatch-GoogleChrome2026-08-1617-21-43-ezgif.com-crop-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 🚀 Local Setup
 
