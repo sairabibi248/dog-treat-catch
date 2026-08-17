@@ -47,10 +47,3 @@ In this game, players control a customizable, hungry puppy navigating through fa
   Your browser does not support the video tag.
 </video>
 
-## 🚀 Local Setup
-
-To run this project locally without any installation or build steps:
-
-1. Clone or download this repository:
-```bash
-git clone https://github.com/sairabibi248/dog-treat-catch.git
